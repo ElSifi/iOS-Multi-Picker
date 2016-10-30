@@ -13,6 +13,8 @@ Copy the `MultiPickerDialog.swift` file into your project.  Modify to fit your n
 ## Example Usage
 
 ```swift
+
+var selectedIDs  : [String] = []
 @IBAction func clicked(_ sender: UIButton) {
         
         
@@ -55,8 +57,8 @@ Copy the `MultiPickerDialog.swift` file into your project.  Modify to fit your n
 * title: String (Required)
 * doneButtonTitle: String
 * cancelButtonTitle: String
-* selected: String (Default picker value)
-* callback: ((value: String) -> Void) (Required)
+* selected: [String] (Array of selected IDs)
+* callback: ((value: [[String:String]]) -> Void) (Required)
 
 
 ## Special thanks to
