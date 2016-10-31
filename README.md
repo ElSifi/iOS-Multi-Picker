@@ -4,6 +4,8 @@ Multi Picker Dialog is a customizable class that displays a UItableView with mul
 for iOS apps.  This project builds on [iOS-PickerDialog](https://github.com/aguynamedloren/ios-picker-dialog),
 a picker dialog developed by [aguynamedloren](https://github.com/aguynamedloren).
 
+## This is a Swift 2.3 version
+
 ![Demo screen](demo.gif)
 
 ## Adding to your project
